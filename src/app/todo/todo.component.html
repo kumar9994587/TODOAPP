@@ -23,7 +23,6 @@
                         <!-- todo -->
                         <div class="example-container">
                             <h2 class="head-title">TO DO <span *ngIf="tasks.length > 0"> - {{tasks.length}}</span></h2>
-                        
                             <div
                               cdkDropList
                               [cdkDropListData]="tasks"
@@ -43,7 +42,6 @@
                         <!-- inprogress -->
                         <div class="example-container">
                             <h2 class="head-title">IN PROGREES <span *ngIf="inprogress.length > 0"> - {{inprogress.length}}</span></h2>
-                        
                             <div
                               cdkDropList
                               [cdkDropListData]="inprogress"
@@ -60,7 +58,6 @@
                         <!-- done -->
                         <div class="example-container">
                             <h2 class="head-title">DONE <span *ngIf="done.length > 0"> - {{done.length}}</span></h2>
-                        
                             <div
                               cdkDropList
                               [cdkDropListData]="done"
